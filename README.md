@@ -15,6 +15,7 @@ A simple calculator microservice built using Node.js and Express. It provides ba
 - Subtraction
 - Multiplication
 - Division
+- Authentication
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -50,8 +51,10 @@ Send a POST request with JSON payload to one of the following endpoints:
     /subtract for subtraction
     /multiply for multiplication
     /divide for division
+    /api/login for login
+    /api/protected for auth
 
-The JSON payload should contain two parameters, num1 and num2, representing the two numbers to perform the arithmetic operation on. The response will be a JSON object containing the result of the operation.
+The JSON payload should contain two parameters, num1 and num2, also an auth token, representing the two numbers to perform the arithmetic operation on. The response will be a JSON object containing the result of the operation.
 
 For example, to perform an addition operation on the numbers 2 and 3, send the following POST request:
 
