@@ -25,8 +25,8 @@ To run this project, you need to have Node.js and npm installed on your machine.
 
 ### Installing
 
-1. Clone this repository: `git clone https://github.com/ps662/sit323_737-2023-t1-prac4c.git`
-2. Navigate to the project directory: `cd sit323_737-2023-t1-prac4c`
+1. Clone this repository: `git clone https://github.com/ps662/CalculatorMicroservice-Boilerplate.git`
+2. Navigate to the project directory: `cd CalculatorMicroservice-Boilerplate`
 3. Install the dependencies: `npm install`
 
 To start the server, run the following command:
